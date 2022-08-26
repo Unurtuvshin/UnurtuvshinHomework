@@ -8,3 +8,6 @@ food = str(input("Та дуртай хоолоо бичнэ үү: "))
 drink = str(input("Та дуртай уух зүйлээ бичнэ үү: "))
 print("Таны дурай уух зүйл бол {}, хоол бол {}.".format(drink, food))
 #End of question 3
+song = str(input("Та дуртай дууны нэрийг бичнэ үү: "))
+print("Та {} дуунд дуртай.".format(song))
+#End of question 4
