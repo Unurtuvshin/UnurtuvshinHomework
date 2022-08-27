@@ -17,3 +17,13 @@ udur_str = "2004-06-25" #String-dee utga ugsun
 udur_date = datetime.datetime.strptime(udur_str, "%Y-%m-%d") #String ee datetime huvisagch bolgoson, davhar datetime gej avj baigaag asuuh
 my_str = udur_date.strftime("%Y onii %m sariin %d udur tursun baina") #Datetime huvisagchaa string bolgoson
 print(my_str) #String-ee hevleh
+#Question 3
+ner = str(input("Нэрээ оруулна уу: "))
+nas = str(input("Насаа оруулна уу: "))
+on = str(input("Төрсөн оноо оруулна уу: "))
+sar = str(input("Төрсөн сараа оруулна уу: "))
+udur = str(input("Төрсөн өдрөө оруулна уу: "))
+my_dict = {"Name": ner, "Age": nas, "Year": on, "Month": sar, "Day": udur}
+type(my_dict)
+print("Манай хэрэглэгчийн нэр бол", my_dict["Name"]+".")
+print("Манай хэрэглэгч", my_dict["Month"], "сард төрсөн.")
