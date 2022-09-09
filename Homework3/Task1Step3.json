@@ -1,0 +1,7 @@
+id,firstName,lastName,citizenId,age,yearsInCompany,salary,gender,startDate,politicalView
+1,Bat,Bayar,UB02,19,6.0,2.4,M,2015-07-17,left
+2,Ovog11,Ner11,ID11,11,1.0,1.1,M,2020-05-12,left
+3,Ovog12,Ner12,ID12,12,1.0,1.1,M,2020-05-11,left
+4,Ovog13,Ner13,ID13,13,1.0,1.1,M,2020-05-10,left
+5,Ovog14,Ner14,ID14,14,1.0,1.1,M,2020-05-09,left
+6,Ovog15,Ner15,ID15,15,1.0,1.1,M,2020-05-08,left
